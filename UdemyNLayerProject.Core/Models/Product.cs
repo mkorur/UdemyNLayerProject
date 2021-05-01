@@ -20,5 +20,7 @@ namespace UdemyNLayerProject.Core.Models
         public string InnerBarcode { get; set; }
 
         public virtual Category Category { get; set; }
+		
+		public string AuthorName { get; set; }
     }
 }
